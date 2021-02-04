@@ -1,0 +1,19 @@
+========
+CONTROLS:
+========
+D Key/Left Stick Right (Xbox, DualShock, etc.) = Move Forward
+A Key/Left Stick Left (Xbox, DualShock, etc.) = Move Backward
+W Key/Left Stick Up (Xbox, DualShock, etc.) = Jump
+M Key/Right Stick Up (Xbox, DualShock, etc.) = Mega Jump
+=======
+CREDITS:
+=======
+All art - EpicJohn
+Scripting - EpicJohn
+and pretty much everything in the test game - EpicJohn
+==============
+Special thanks:
+==============
+Special Thanks to Collin from BornCG and Cryptic Coding for the Godot Engine Tutorials. Also Thanks to the managers ZeroX and CNJ Gamer for help with judging the pixel
+art and other game development pieces, along with the voice actor Tristan McCann, for motivation to keep me going with the test game and EMSC overall. And big thanks
+to ALL of my Discord Server Members!
