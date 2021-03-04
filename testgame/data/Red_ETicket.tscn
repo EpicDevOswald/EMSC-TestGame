@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://red_eticket_emsc.png" type="Texture" id=1]
+[ext_resource path="res://eticketscript_red.gd" type="Script" id=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 33.7252, 19.9525 )
+
+[node name="Red_ETicket" type="Area2D"]
+script = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 425.717, 491.852 )
+shape = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 422.36, 492.447 )
+scale = Vector2( 0.282294, 0.304513 )
+texture = ExtResource( 1 )
+[connection signal="body_entered" from="." to="." method="_on_Red_ETicket_body_entered"]
